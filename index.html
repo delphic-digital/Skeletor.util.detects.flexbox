@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skeletor Flexbox detection</title>
+</head>
+<body>
+	<p>Skeletor Flexbox detection</p>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.js"></script>
+	<script>
+		require.config({
+			paths: {
+				'jquery': '//code.jquery.com/jquery-3.0.0.min',
+				'skeletor.core': '//rawgit.com/delphic-digital/Skeletor.core/master/skeletor.core',
+			}
+		})
+		require(['skeletor.util.detects.flexbox'])
+	</script>
+</body>
+</html>

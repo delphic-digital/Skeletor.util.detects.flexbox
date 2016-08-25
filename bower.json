@@ -1,0 +1,25 @@
+{
+  "name": "skeletor.util.detects.mobile",
+  "main": "skeletor.util.detects.mobile.js",
+  "homepage": "https://github.com/delphic-digital/Skeletor.util.detects.mobile.git",
+  "authors": [
+    "Jeff <jmills@delphicdigital.com>"
+  ],
+  "description": "Detect mobile devices",
+  "keywords": [
+    "delphic",
+    "skeletor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "isMobile": "^0.4.0",
+    "skeletor.core": "*"
+  }
+}
